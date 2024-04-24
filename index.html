@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <div class="top-left"><img src="backgrounds/logo.png" alt="" class="logo"></div>
+            <div class="top-right"><img src="backgrounds/pngkey.com-aesthetic-png-234021.png" alt="" class="logo-right"></div>
+        </div>
+        <div class="center-container">
+            <div class="pomodoro-buttons">  
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="timerType" id="exampleRadios1" value="pomodoro" checked>
+                    <label for="exampleRadios1" class="form-check-label btn">pomodoro
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="timerType" id="exampleRadios2" value="short">
+                    <label for="exampleRadios2" class="form-check-label btn">short break
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="timerType" id="exampleRadios3" value="long">
+                    <label for="exampleRadios3" class="form-check-label btn">long break
+                    </label>
+                </div>
+            </div>
+            <div class="pomodoro-timer">25:00</div>
+            <div class="clock-actions">
+                <button id="pomodoro-start" class="btn btn-primary">
+                    <span class id="play">start</span>
+                    <span class="hidden" id="pause">pause</span>
+                </button>
+            </div>
+        </div>
+        <div class="bottom-container">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
